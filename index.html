@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheet.css">
+  <title>Nikko Web</title>
+</head>
+<body>
+  <div id="main" class="main">
+    <div class="content">
+      <h1 class="title">Nikko Web.</h1>
+      <p class="sub">I don't like it when I wake up in the afternoon and someone says that I sleep too much.</p>
+      <br>
+      <p>Sometimes the phone battery lasts longer than the relationship.</p>
+      <p>Smart phone, dumb battery.</p>
+      <br>
+      <p>
+        toilet = 1 minute, <br>
+        toilet + phone = 10 minutes, <br>
+        toilet + phone + wifi = 1 hour, <br>
+        toilet + phone + wifi + charger = all day long, <br>
+      </p>
+      <br>
+      <p>
+        [teacher] Why are you late?<br>
+        [student] Why does it matter? You still get paid, right?
+      </p>
+    </div>
+  </div>
+  <script src="/three.min.js"></script>
+  <script src="/vanta.clouds.min.js"></script>
+  <script>
+    VANTA.CLOUDS({
+    el: "#main",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    backgroundColor: 0xff6800,
+    skyColor: 0x7085ed,
+    cloudColor: 0x797fd4,
+    cloudShadowColor: 0xa23813,
+    sunColor: 0xff8100,
+    sunGlareColor: 0xff3e00,
+    sunlightColor: 0xff6800,
+    speed: 1.40
+    })
+  </script>
+</body>
+</html>
